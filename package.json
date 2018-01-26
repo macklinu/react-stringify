@@ -1,0 +1,15 @@
+{
+  "name": "react-stringify",
+  "version": "0.0.0-semantically-released",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mdu-scripts test"
+  },
+  "keywords": [],
+  "author": "Macklin Underdown <macklinu@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mdu-scripts": "^2.0.0"
+  }
+}
