@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`honors falsy values besides undefined 1`] = `
+<pre>
+  null
+</pre>
+`;
+
+exports[`honors falsy values besides undefined 2`] = `
+<pre>
+  0
+</pre>
+`;
+
+exports[`honors falsy values besides undefined 3`] = `
+<pre>
+  false
+</pre>
+`;
+
+exports[`honors falsy values besides undefined 4`] = `
+<pre>
+  ""
+</pre>
+`;
+
+exports[`honors render prop API 1`] = `
+<div>
+  {
+  "a": 1,
+  "b": 2,
+  "nested": {
+    "c": 3,
+    "d": 4
+  }
+}
+</div>
+`;
+
+exports[`honors replacer prop 1`] = `
+<pre>
+  {
+  "a": 1,
+  "b": 2
+}
+</pre>
+`;
+
+exports[`honors space prop 1`] = `
+<pre>
+  {
+	"a": 1,
+	"b": 2,
+	"nested": {
+		"c": 3,
+		"d": 4
+	}
+}
+</pre>
+`;
+
+exports[`ignores functions in object by default 1`] = `
+<pre>
+  {
+  "bar": "bar"
+}
+</pre>
+`;
+
+exports[`renders array values 1`] = `
+<pre>
+  [
+  1,
+  2,
+  3
+]
+</pre>
+`;
+
+exports[`uses default render function if none passed 1`] = `
+<pre>
+  {
+  "a": 1,
+  "b": 2,
+  "nested": {
+    "c": 3,
+    "d": 4
+  }
+}
+</pre>
+`;

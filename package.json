@@ -1,15 +1,44 @@
 {
   "name": "react-stringify",
-  "version": "0.0.0-semantically-released",
-  "description": "",
+  "version": "0.0.0-development",
+  "description": "A JSON.stringify() React component utility",
   "main": "dist/index.js",
-  "scripts": {
-    "test": "mdu-scripts test"
-  },
-  "keywords": [],
+  "module": "dist/index.es.js",
+  "files": ["dist"],
+  "keywords": ["react", "stringify", "utility", "render-props"],
   "author": "Macklin Underdown <macklinu@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/macklinu/react-stringify.git"
+  },
+  "scripts": {
+    "precommit": "mdu-scripts precommit",
+    "build": "BUILD_ROLLUP=true rollup -c",
+    "test": "mdu-scripts test",
+    "lint": "mdu-scripts lint",
+    "prepublish": "npm run build",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+    "@macklinu/render-props": "^1.0.1"
+  },
   "devDependencies": {
-    "mdu-scripts": "^2.0.0"
+    "babel-preset-flow": "^6.23.0",
+    "eslint-plugin-react": "^7.6.0",
+    "flow-bin": "^0.64.0",
+    "mdu-scripts": "^2.0.0",
+    "react": "^16.2.0",
+    "react-test-renderer": "^16.2.0",
+    "rollup": "^0.55.1",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^8.3.0",
+    "rollup-plugin-filesize": "^1.5.0",
+    "rollup-plugin-node-resolve": "^3.0.2",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-uglify": "^3.0.0",
+    "travis-deploy-once": "^4.3.3",
+    "semantic-release": "^12.4.1"
   }
 }
