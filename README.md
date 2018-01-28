@@ -15,8 +15,8 @@
 
 * [Motivation](#motivation)
 * [Installation](#installation)
-* [Usage](#usage)
 * [Examples](#examples)
+* [Usage](#usage)
 * [API Reference](#api-reference)
   * [`Stringify`](#stringify)
 * [Contributors](#contributors)
@@ -32,6 +32,10 @@ When debugging or building examples for React component libraries, I often want 
 ```
 npm install react-stringify
 ```
+
+## Examples
+
+See [this CodeSandbox](https://codesandbox.io/s/v6104mmnyl) for an in-browser example.
 
 ## Usage
 
@@ -113,10 +117,6 @@ By default, `JSON.stringify()` ignores functions. If you would like to stringify
 //   }</pre>
 // </div>
 ```
-
-## Examples
-
-See [this CodeSandbox](https://codesandbox.io/s/v6104mmnyl) for an in-browser example.
 
 ## API Reference
 
