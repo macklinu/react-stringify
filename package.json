@@ -25,7 +25,6 @@
     "@macklinu/render-props": "^1.0.1"
   },
   "devDependencies": {
-    "babel-preset-flow": "^6.23.0",
     "flow-bin": "^0.64.0",
     "mdu-scripts": "^2.2.0",
     "react": "^16.2.0",
