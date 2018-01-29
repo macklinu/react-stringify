@@ -1,14 +1,5 @@
 {
-  "extends": [
-    "./node_modules/mdu-scripts/eslint.js",
-    "plugin:react/recommended"
-  ],
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true,
-      "modules": true
-    }
-  },
+  "extends": ["./node_modules/mdu-scripts/eslint.js"],
   "rules": {
     "react/prop-types": "ignore"
   }
